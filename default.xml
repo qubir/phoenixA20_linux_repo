@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="phoenix_linux"
+           fetch="ssh://git@github.com"/>
+
+  <default revision="master"
+           remote="phoenix_linux"
+           sync-c="true"
+           sync-j="4" />
+
+  <project path="lichee/linux3.3" name="qubir/PhoenixA20_linux_sourcecode" remote="phoenix_linux" revision="master" />
+  <project path="lichee/tools" name="qubir/phoenixA20_linux_tools_sourcecode" remote="phoenix_linux" revision="master" />
+  <project path="lichee/uboot" name="qubir/phoenixA20_uboot_soiurcecode" revision="master" />
+  <project path="lichee/boot" name="qubir/phoenixA20_linux_boot_sourcecode" remote="phoenix_linux" revision="master" />
+  <project path="lichee/buildroot" name="qubir/phoenixA20_buildroot_sourcecode" remote="phoenix_linux" revision="master"/>
+
+</manifest>
