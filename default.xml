@@ -14,6 +14,6 @@
   <project path="lichee/uboot" name="qubir/phoenixA20_uboot_soiurcecode" revision="master" />
   <project path="lichee/boot" name="qubir/phoenixA20_linux_boot_sourcecode" remote="phoenix_linux" revision="master" />
   <project path="lichee/buildroot" name="qubir/phoenixA20_buildroot_sourcecode" remote="phoenix_linux" revision="master"/>
-  <project path="build.sh" name="qubir/phoenixA20_buildshell_sourcecode" remote="phoenix_linux" revision="master"/>
+  <project path="build.sh" name="qubir/phoenixA20_linux_build_shell" remote="phoenix_linux" revision="master"/>
 
 </manifest>
