@@ -14,7 +14,7 @@
   <project path="u-boot" name="qubir/phoenixA20_uboot_soiurcecode" revision="master" />
   <project path="boot" name="qubir/phoenixA20_linux_boot_sourcecode" remote="phoenix_linux" revision="master" />
   <project path="buildroot" name="qubir/phoenixA20_buildroot_sourcecode" remote="phoenix_linux" revision="master">
-   <copyfile src="build_linux.sh" dest="../build.sh" />
+   <copyfile src="build_linux.sh" dest="build**.sh" />
   </project>
 
 </manifest>
